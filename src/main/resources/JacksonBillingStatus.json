@@ -1,0 +1,31 @@
+[ {
+  "ad_delivery_pennies" : 5000,
+  "user_id" : 1,
+  "transaction_timestamp" : 1500000001
+}, {
+  "ad_delivery_pennies" : 1000,
+  "user_id" : 1,
+  "transaction_timestamp" : 1500000002
+}, {
+  "payment_pennies" : 1000,
+  "user_id" : 3,
+  "transaction_timestamp" : 1500000005
+}, {
+  "payment_pennies" : 500,
+  "user_id" : 2,
+  "transaction_timestamp" : 1500000005
+}, {
+  "payment_pennies" : 500,
+  "ad_delivery_pennies" : 1000,
+  "transaction_timestamp" : 1500000005,
+  "user_id" : 2
+}, {
+  "payment_pennies" : 500,
+  "ad_delivery_pennies" : 1000,
+  "transaction_timestamp" : 1500000004,
+  "user_id" : 1
+}, {
+  "payment_pennies" : 500,
+  "user_id" : 1,
+  "transaction_timestamp" : 1500000003
+} ]
