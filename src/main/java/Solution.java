@@ -43,7 +43,7 @@ class Solution {
                 "payment_pennies", 500,
                 "transaction_timestamp", 1500000005
         ));
-        test.put("tran7", Map.<String, Integer>of(
+        test.put("tran6", Map.<String, Integer>of(
                 "user_id", 3,
                 "payment_pennies", 1000,
                 "transaction_timestamp", 1500000005
@@ -71,8 +71,7 @@ class Solution {
                 billingStatusSet.add(new BillingStatus(billingStatus.getUser_id(), ad_delivery_pennies, payment_pennies));
             }
         }
-        billingStatusSet.forEach(billingStatus -> System.out.println(billingStatus));
         System.out.println(billingStatusSet);
     }
-    
+
 }

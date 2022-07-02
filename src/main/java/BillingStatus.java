@@ -57,7 +57,6 @@ public class BillingStatus {
     public String toString() {
         return user_id +
                 "= ad_delivery_pennies:" + ad_delivery_pennies +
-                " payment_pennies:" + payment_pennies +
-                ',';
+                " payment_pennies:" + payment_pennies;
     }
 }
